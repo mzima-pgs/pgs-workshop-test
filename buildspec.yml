@@ -8,3 +8,6 @@ phases:
 artifacts:
   files:
     - target/workshop-test-1.0-SNAPSHOT.jar
+    - appspec.yml
+    - pipeline_scripts/startup_server.sh
+  discard-paths: yes
