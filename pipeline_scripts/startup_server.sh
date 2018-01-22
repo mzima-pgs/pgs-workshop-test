@@ -1,1 +1,1 @@
-nohup java -jar /opt/application/workshop-test-1.0-SNAPSHOT.jar > /opt/application/app.log 2>&1 &
+java -jar /opt/application/workshop-test-1.0-SNAPSHOT.jar
