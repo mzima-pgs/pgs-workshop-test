@@ -1,9 +1,12 @@
 version: 0.0
 os: linux
 files:
-  - source: workshop-test-1.0-SNAPSHOT.jar
+  - source: workshop-1.0.jar
     destination: /opt/application
 hooks:
+  ApplicationStop:
+    - location: startup_server.sh
+      timeout: 180
   ApplicationStart:
     - location: startup_server.sh
       timeout: 180

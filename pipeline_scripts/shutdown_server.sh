@@ -1,0 +1,1 @@
+sudo pkill -f workshop-test-1.0-SNAPSHOT.jar
