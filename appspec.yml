@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: workshop-1.0.jar
+  - source: workshop-test-1.0-SNAPSHOT.jar
     destination: /opt/application
 hooks:
   ApplicationStop:
