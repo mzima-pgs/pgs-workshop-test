@@ -5,7 +5,7 @@ files:
     destination: /opt/application
 hooks:
   ApplicationStop:
-    - location: shutdown.sh
+    - location: shutdown_server.sh
       timeout: 180
   ApplicationStart:
     - location: startup_server.sh
